@@ -18,7 +18,7 @@ const Form = () => {
     
     if (!formData.textInput) return;
 
-    const response = await fetch('http://localhost:3000/send-text', {
+    const response = await fetch('https://jenito.onrender.com/send-text', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
